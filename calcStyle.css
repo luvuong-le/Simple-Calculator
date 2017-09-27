@@ -1,0 +1,78 @@
+body, div, a {
+  padding: 0;
+  margin: auto;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#calculator {
+  width: 500px;
+  height: 500px;
+  background-color: #9dd2ea;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+#total {
+  width: 490px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 5px;
+  font-size: 70px;
+  border-radius: 5px;
+  text-align: right;
+  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+#numbers {
+  width: 400px;
+  float: left;
+}
+
+#operators {
+  float:right;
+  width: 90px;
+  margin-top: auto;
+  margin-right: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#operators a{
+  width: 50px;
+  height: 50px;
+  margin: 5px 15px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 10px 5px 5px #888888;
+}
+
+#operators a:hover {
+  background: #ccc;
+}
+
+#numbers a:hover {
+  background-color: #ccc;
+}
+
+#numbers a {
+  width: 50px;
+  height: 50px;
+  margin: 5px 15px;
+  padding: 10px;
+  display: block;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888888;
+}
